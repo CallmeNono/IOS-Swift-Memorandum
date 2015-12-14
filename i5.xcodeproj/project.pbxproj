@@ -14,6 +14,8 @@
 		3D1C1B481BC7EA0200EF2F4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1C1B461BC7EA0200EF2F4A /* LaunchScreen.storyboard */; };
 		3D1C1B531BC7EA0200EF2F4A /* i5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1C1B521BC7EA0200EF2F4A /* i5Tests.swift */; };
 		3D1C1B5E1BC7EA0200EF2F4A /* i5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1C1B5D1BC7EA0200EF2F4A /* i5UITests.swift */; };
+		3D4AC4851BC8EC8A001C743A /* todoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4AC4841BC8EC8A001C743A /* todoModel.swift */; };
+		3D4AC48B1BC8F28D001C743A /* fuckingg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4AC48A1BC8F28D001C743A /* fuckingg.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		3D1C1B591BC7EA0200EF2F4A /* i5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = i5UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D1C1B5D1BC7EA0200EF2F4A /* i5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = i5UITests.swift; sourceTree = "<group>"; };
 		3D1C1B5F1BC7EA0200EF2F4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D4AC4841BC8EC8A001C743A /* todoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = todoModel.swift; sourceTree = "<group>"; };
+		3D4AC48A1BC8F28D001C743A /* fuckingg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fuckingg.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				3D1C1B441BC7EA0200EF2F4A /* Assets.xcassets */,
 				3D1C1B461BC7EA0200EF2F4A /* LaunchScreen.storyboard */,
 				3D1C1B491BC7EA0200EF2F4A /* Info.plist */,
+				3D4AC4841BC8EC8A001C743A /* todoModel.swift */,
+				3D4AC48A1BC8F28D001C743A /* fuckingg.swift */,
 			);
 			path = i5;
 			sourceTree = "<group>";
@@ -259,7 +265,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D1C1B401BC7EA0200EF2F4A /* ViewController.swift in Sources */,
+				3D4AC4851BC8EC8A001C743A /* todoModel.swift in Sources */,
 				3D1C1B3E1BC7EA0200EF2F4A /* AppDelegate.swift in Sources */,
+				3D4AC48B1BC8F28D001C743A /* fuckingg.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,7 +407,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = i5/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fds.i5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -410,7 +420,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = i5/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fds.i5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -484,6 +496,7 @@
 				3D1C1B641BC7EA0200EF2F4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D1C1B651BC7EA0200EF2F4A /* Build configuration list for PBXNativeTarget "i5Tests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +505,7 @@
 				3D1C1B671BC7EA0200EF2F4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D1C1B681BC7EA0200EF2F4A /* Build configuration list for PBXNativeTarget "i5UITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +514,7 @@
 				3D1C1B6A1BC7EA0200EF2F4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
